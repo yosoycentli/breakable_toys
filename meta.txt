@@ -1,0 +1,21 @@
+; Define valid currencies/commodities.
+commodity $
+commodity €
+commodity BTC
+
+; Define list of valid accounts.
+account Equity:OpeningBalances
+
+
+account Expenses:Holidays
+account Expenses:Insurance:Health
+
+account Assets:NorthBank:Checking
+account Assets:SouthBank:Checking
+account Assets:Brokerage:VanguardFTSEAllWorld
+
+account Income:Family:Grandparents
+account Income:Salary:GoodCompany
+
+account Receivables:FamilyLoan
+account Receivables:Flatmates
