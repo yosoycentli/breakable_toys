@@ -20,7 +20,6 @@ def deleteDB():
 
 @click.command()
 #@click.option('--print', 'p', 'print_' help='The printfile function allows you to see a file. You can try with Expenses, Income or Bitcoin')
- 
 @click.argument('file')
 def printFile(file):
     f= open('{}.ledger'.format(file), 'r')
